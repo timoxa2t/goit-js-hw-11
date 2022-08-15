@@ -1,0 +1,28 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.photo-card{
+  padding: 10px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  background-color: lightgrey;
+  border: 2px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px;
+}
+
+
+img{
+  max-width: 300px;
+}
+
+.load-more{
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+  align-items: center;
+  padding: 10px;
+}
