@@ -67,12 +67,12 @@ function sendRequest(queryText, page){
         q: queryText, 
         image_type: "photo",
         orientation: "horizontal",
-        safesearch: false, 
+        safesearch: true, 
         per_page: 20, 
         page: page
    })
 
-   const url = "https://pixabay.com/api?" + params
+   const url = "https://pixabay.com/api/?" + params
 
    return axios.get(url)
     .then((res) => res.data)
